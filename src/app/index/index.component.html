@@ -1,0 +1,12 @@
+<!-- Index component -->
+<div class="header">
+    <app-header></app-header>
+</div>
+<div class="section-2">
+    <div class="sidebar">
+        <app-side-nav></app-side-nav>
+    </div>
+    <div class="main-content">
+        <router-outlet (activate)="changeOfRoutes()"></router-outlet>
+    </div>
+</div>

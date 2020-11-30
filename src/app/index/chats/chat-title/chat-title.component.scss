@@ -1,0 +1,69 @@
+.user-detail-section {
+    background-color: #e0e0e0;
+    height: 60px;
+    border-bottom: 1px solid black;
+    display: flex;
+  }
+  
+  .user-detail-section img {
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  
+  .user-detail-section .username {
+    margin-left: 15px;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .calling-options {
+    position: absolute;
+    right: 20px;
+    top: 57px;
+  }
+  
+  .calling-options .material-icons {
+    color: white;
+    background-color: #5f6bc1;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .extras {
+    display: flex;
+    margin-top: 15px;
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  
+  .extras a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .extras a:hover {
+    text-decoration: underline;
+    /* border-bottom: 5px solid red; */
+  }
+  
+  .title-chat {
+    /* border-bottom: 5px solid red; */
+  }
+  
+  .title-files {
+    padding-left: 15px;
+    /* border-bottom: 5px solid red; */
+  }
+  @media screen and (max-width: 675px) {
+    .extras {
+      display: none;
+    }
+    .user-detail-section .username {
+      font-size: 16px;
+    }
+  }

@@ -1,0 +1,51 @@
+.menu-icons {
+  background-color: #303052;
+  width: 100%;
+//   height: calc(100vh - 50px);;
+  min-width: 50px;
+  color: white;
+  height: 100%;
+}
+
+.menu-icons ul {
+  text-align: center;
+}
+
+.menu-icons ul li {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  cursor: pointer;
+  font-size: 12px;
+  list-style-type: none;
+}
+
+.menu-icons ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-icons ul li:hover {
+  padding-top: 7px;
+  cursor: pointer;
+  background-color: #615582;
+}
+
+.help {
+  position: absolute;
+  bottom: 0px;
+  left: 22px;
+  background-color: none;
+}
+
+.more-icons {
+  display: none;
+}
+
+@media screen and (max-height: 583px) {
+  .extra-icon {
+    display: none;
+  }
+  .more-icons {
+    display: block;
+  }
+}

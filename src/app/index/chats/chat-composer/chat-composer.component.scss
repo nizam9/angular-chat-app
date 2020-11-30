@@ -1,0 +1,98 @@
+.chat-body {
+    background-color: aqua;
+    height: 83%;
+}
+
+.user-chat-section {
+    background-color: rgb(224 224 224);
+    // height: calc(100% - 150px);
+    height: 100%;
+    min-height: 200px;
+    overflow: auto;
+}
+
+.user-chat-section .message-sent {
+    background: white;
+    float: right;
+    clear: both;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-chat-section .message-received {
+    float: left;
+    clear: both;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sender-details .timestamp {
+    margin-left: 25px;
+    font-size: 13px;
+    position: relative;
+    bottom: 3px;
+}
+
+.sender-details .sender-name {
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    bottom: 3px;
+}
+
+.send__message {
+    position: absolute;
+    right: 90px;
+}
+.message-container {
+    width: 75%;
+    margin-left: 13%;
+    text-align: left;
+    position: relative;
+    bottom: 10%;
+}
+
+.message-compose-section {
+    background-color: rgb(224 224 224);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sendMessage {
+    height: 50px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#sendMessage:focus {
+    border-bottom: 2px solid red;
+    height: 52px;
+}
+
+.message-options {
+    align-self: flex-start;
+    margin-left: 11%;
+}
+
+#sendMessage:focus + .message-options .material-icons {
+    padding: 3px 10px;
+}
+
+.message-options .material-icons {
+    padding: 5px 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.chat-compose {
+    height: 17%;
+    // background-color:maroon;
+    // position: absolute;
+}

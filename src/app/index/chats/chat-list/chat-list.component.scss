@@ -1,0 +1,136 @@
+.chat-section {
+    display: flex;
+    height: 100%;
+}
+.chat-header-section {
+    background-color: white;
+    width: 25%;
+}
+.chat-details {
+    background-color: orange;
+    width: 75%;
+}
+.filter-section {
+    height: 60px;
+    background-color: white;
+    // border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.user-detail-section {
+    height: 60px;
+    background-color: yellowgreen;
+}
+
+.chat {
+    padding: 15px;
+}
+
+.menu-top-section {
+    position: relative;
+    top: 15px;
+}
+
+.menu-top-section a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-top-section a:hover {
+    text-decoration: underline;
+}
+.filter-icon {
+    float: right;
+    padding-right: 5px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    bottom: 3px;
+}
+.filter__section {
+    display: none;
+}
+#filter-chat {
+    height: 50px;
+    width: 85%;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    color: black;
+    font-size: 18px;
+}
+
+.filter__icns .material-icons {
+    position: relative;
+    top: 5px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.user-chat {
+    height: 75px;
+    width: 100%;
+    // padding: 10px;
+    /* background-color: lavender; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .user-chat:hover {
+    background-color: #eaeaea;
+  }
+  
+  .user-chat img {
+    width: 40px;
+    height: 40px;
+    border-radius: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+    /* position: relative;
+      top:10px; */
+  }
+  
+  .usr-card {
+    /* align-items: center; */
+    padding-left: 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  .usr-card .username .name {
+    font-size: 16px;
+  }
+  
+  .usr-card .username .date {
+    font-size: 14px;
+  }
+  
+  .usr-card .username .date {
+    position: relative;
+    left: 110px;
+  }
+  
+  .usr-card .user-message {
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 225px;
+    padding-top: 5px;
+  }
+  .chat-list{
+    overflow: auto;
+    height: calc(100% - 60px);
+  }
+  .composer{
+    height: calc(100% - 60px);
+  }
+  @media screen and (max-width: 863px) {
+    .chat-header-section {
+    //   display: none;
+    }
+    .chat-details {
+      min-width: 100%;
+    }
+  }

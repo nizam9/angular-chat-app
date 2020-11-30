@@ -1,0 +1,86 @@
+// nav{
+//     background-color: yellow;
+//     height: 50px;
+// }
+
+nav {
+    height: 50px;
+    width: 100%;
+    background-color: #897898;
+    display: flex;
+    justify-content: space-between;
+}
+.navigation-icon {
+    margin-top: 5px;
+    display: flex;
+}
+
+.navigation-icon .material-icons {
+    color: white;
+    font-size: 35px;
+}
+.search-box {
+    width: 80%;
+}
+#search {
+    height: 40px;
+    width: 55%;
+    margin-left: 15%;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.profile-section {
+    width: 200px;
+}
+
+.profile-section img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    position: absolute;
+    right: 30px;
+    top: 5px;
+}
+
+.profile-section a {
+    position: relative;
+    top: 3px;
+    color: white;
+    text-decoration: none;
+}
+.org-arrow {
+    position: relative;
+    top: 10px;
+    color: white;
+    cursor: pointer;
+}
+.search-suggestion {
+    height: 300px;
+    width: 55%;
+    margin-left: 15%;
+    background-color: palegoldenrod;
+    position: relative;
+    z-index: 1;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    display: none;
+}
+
+#search:focus + .search-suggestion {
+    display: block;
+}
+.profile-section .oranisation-selection {
+    height: 100px;
+    width: 200px;
+    right: 10px;
+    position: absolute;
+    top: 50px;
+    background-color: red;
+    z-index: 1;
+    display: none;
+}

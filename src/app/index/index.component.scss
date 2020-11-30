@@ -1,0 +1,13 @@
+.section-2{
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+.sidebar{
+    background-color: red;
+    flex-basis: 70px;
+}
+.main-content{
+    background-color: green;
+    flex-basis: 100%;
+}
