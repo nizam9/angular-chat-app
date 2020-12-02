@@ -1,0 +1,115 @@
+
+$border-color: rgba(0,0,0,.125);
+$submit-btn-color:#ff5252;
+$font-size:12px;
+
+.border-cls{
+    border: 1px solid $border-color;
+}
+.submit-btn{
+    background-color: $submit-btn-color;
+    color:white;
+    font-size: $font-size;
+}
+input {
+    font-size: $font-size;
+    outline: none !important;
+    box-shadow: none !important;
+    // border-color: $submit-btn-color !important;
+}
+
+
+.left-block{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.right-block{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.display-block{
+    width: 60%;
+    height: 50%;
+}
+.login-block{
+    width: 60%;
+    // height: 50%;
+}
+.login-form{
+    margin-top: 10px;
+    padding: 30px 15px 0px 15px;
+}
+.forgot-password{
+    justify-content: flex-end;
+    margin-right: 33px;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.google-login-logo{
+    height: 20px;
+    margin-right: 15px;
+}
+.google-login{
+    border: 1px solid $border-color;
+    border-radius: 5px;
+    font-size: $font-size;
+    padding: 5px 0px;
+    text-align: center;
+    cursor: pointer;
+}
+.create-hint{
+    text-align: center;
+    font-size: $font-size;
+}
+.login-title{
+    text-align: center;
+}
+.company-logo{
+    font-size: 40px;
+    color:#ff5252;;
+}
+.signin-text{
+    font-size: 22px;
+}
+.footer-text{
+    height: 10vh;
+    display: block;
+    text-align: center;
+    font-size: $font-size;
+}
+.advertise{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.adv-title{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.adv-sub {
+    font-size: 14px;
+    color: rgb(136 136 136 / 65%);
+    
+}
+
+
+.yellow{
+    // background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
+.orange{
+    background-color: orange;
+}
+.red{
+    // background-color: red;
+}
+.blue{
+    // background-color: skyblue;
+}
